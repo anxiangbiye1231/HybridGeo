@@ -39,7 +39,7 @@ We tested the training and inference time, along with the resource requirement o
 ## Usage
 We provide a demo to show how to train and test HybridGeo.   
 ### 1. Training 
-1. Firstly,  Follow the data processing steps to generate the train and valid parts of the data.   
+1. Firstly,  follow the data processing steps to generate the train and valid parts of the data.   
 2. Secondly, run train.py using `python train.py`.  
 ### 2. Testing  
 1. Unzip the preprocessed data from `./data/internal_test.tar.gz`, `./data/test_2013.tar.gz`, `./data/test_2016.tar.gz` and `./data/test_hiq.tar.gz`.   
