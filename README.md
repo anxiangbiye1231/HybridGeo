@@ -42,10 +42,10 @@ We provide a demo to show how to train and test HybridGeo.
 1. Firstly,  follow the data processing steps to generate the train and valid parts of the data.   
 2. Secondly, run train.py using `python train.py`.  
 ### 2. Testing  
-1. Unzip the preprocessed data from `./data/internal_test.tar.gz`, `./data/test_2013.tar.gz`, `./data/test_2016.tar.gz` and `./data/test_hiq.tar.gz`.   
+1. Unzip the saved models and preprocessed data from `./data/internal_test.tar.gz`, `./data/test_2013.tar.gz`, `./data/test_2016.tar.gz` and `./data/test_hiq.tar.gz`.   
 2. Run test.py using `python predict.py`.    
 3. You may need to modify some file paths in the source code before running it.    
-Or download the trained model from https://pan.baidu.com/s/1jCLGaUttW5UrNUtSjhrZyw?pwd=6e4d. Password：6e4d   
+download the models and data from https://pan.baidu.com/s/1jCLGaUttW5UrNUtSjhrZyw?pwd=6e4d. Password：6e4d   
 ### 3. Process raw data  
 1. `preprocessing.py` contains pocket generation, complex construction, and esm feature extraction.       
 2. `dataset.py` contains residue geometric feature building.
