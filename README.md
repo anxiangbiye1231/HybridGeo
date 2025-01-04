@@ -35,7 +35,7 @@ torch==2.0.1
 torch-geometric==2.5.2   
 tqdm==4.66.2  
 ## Resource requirements
-We tested the training and inference time, along with the resource requirement of HybridGeo on a server computer embedded with a graphical card NVIDIA GeForce RTX4090D with a memory of 24G. HybridGeo takes 105 minutes to train. Once the training is finished, the model takes only 4.6 seconds for the internal test set, with an average of only 2.43 ms for each test sample. For the resource requirement, the training of MHAN-DTA costs 13220M of graphics memory.
+We tested the training and inference time, along with the resource requirement of HybridGeo on a server computer embedded with a graphical card NVIDIA GeForce RTX4090D with a memory of 24G. HybridGeo takes 105 minutes to train. For the resource requirement, the training of MHAN-DTA costs 13220M of graphics memory.
 ## Usage
 We provide a demo to show how to train and test HybridGeo.   
 ### 1. Training 
